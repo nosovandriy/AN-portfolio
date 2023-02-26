@@ -1,5 +1,3 @@
-"use client"
-
 import { FaLinkedinIn, FaGithub, FaFacebookF } from 'react-icons/fa';
 import { IoMailOpen } from 'react-icons/io5';
 
