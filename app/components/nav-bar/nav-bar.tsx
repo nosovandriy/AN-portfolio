@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { AiOutlineMenu, AiOutlineClose, AiFillMail } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub, FaFacebookF } from 'react-icons/fa';
 import { IoMailOpen } from 'react-icons/io5';
 
