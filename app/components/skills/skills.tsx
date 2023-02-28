@@ -3,21 +3,20 @@ import Image from 'next/image';
 import { useSkills } from './hook/useSkills';
 
 const Skills = () => {
-
   const { skills } = useSkills();
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
+    <div id='skills' className='w-full p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
         </p>
-        <h2 className='py-4'>What I Can Do</h2>
+        <h2 className='py-4'>My Web Development Stack</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
 
-          {skills.map(skill => (
+          {skills.map((skill, index) => (
             <div
               className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-slate-300'
-              key={skill.id}
+              key={index}
             >
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
