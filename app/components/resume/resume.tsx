@@ -188,7 +188,7 @@ const Resume = () => {
         <p className=' pb-4 uppercase text-xl tracking-widest text-[#5651e5]'>EDUCATION</p>
         <div className='flex flex-col gap-5 mb-4'>
           <div className='text-left flex flex-col gap-2'>
-            <p><span className='font-bold'>University : </span>Ternopil State 'Ivan Pul'uj' Technical University (2005 - 2010)</p>
+            <p><span className='font-bold'>University : </span>Ternopil Ivan Puluj National Technical University (2005 - 2010)</p>
             <p><span className='font-bold'>Courses : </span>Mate Academy (2021-2022)</p>
           </div>
         </div>
