@@ -1,8 +1,9 @@
 import { Raleway } from 'next/font/google'
-import Main from './components/main/main';
-import About from './components/about/about';
-// import Skills from './components/skills/skills';
-import Projects from './components/projects/projects';
+import  Main from '@main/main';
+// import { About } from '@about';
+import Resume from '@resume/resume';
+import { Projects } from '@projects';
+import { Skills } from '@skills';
 
 const inter = Raleway({ subsets: ['latin'] })
 
@@ -11,9 +12,10 @@ export default function Home() {
     <>
       <div className={inter.className}>
         <Main />
-        <About />
-        {/* <Skills /> */}
+        {/* <About /> */}
+        <Skills />
         <Projects />
+        <Resume />
       </div>
     </>
   )

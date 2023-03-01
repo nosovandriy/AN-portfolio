@@ -6,7 +6,7 @@ import { IconContext } from 'react-icons';
 
 import { iconContacts } from 'contacts';
 
-const IconItems = () => {
+export const IconItems = () => {
   return (
     <>
       {iconContacts.map((iconContact, index) => (
@@ -26,4 +26,4 @@ const IconItems = () => {
   )
 }
 
-export default IconItems
+// export default IconItems

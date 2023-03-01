@@ -1,5 +1,3 @@
-"use client"
-
 import { Link as AnchorLink } from "react-scroll/modules";
 
 interface NavItem {
@@ -24,9 +22,18 @@ const navItems: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
+  {
+    label: "Resume",
+    page: "resume",
+  },
 ]
 
-const MenuItems = ({ className }: { className: string }) => {
+type Props = {
+  className: string;
+  onClick?: () => void;
+}
+
+export const MenuItems: React.FC<Props> = ({ className, onClick }) => {
   return (
     <>
       {navItems.map((item, index) => (
@@ -35,6 +42,7 @@ const MenuItems = ({ className }: { className: string }) => {
           className={className}
         >
           <AnchorLink
+            onClick={onClick}
             spy={true}
             smooth={true}
             to={item.page}
@@ -48,5 +56,3 @@ const MenuItems = ({ className }: { className: string }) => {
     </>
   )
 }
-
-export default MenuItems

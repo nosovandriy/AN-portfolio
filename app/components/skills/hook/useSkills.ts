@@ -43,11 +43,30 @@ export function useSkills(): {
       alt: 'Bootstrap logo',
     },
     {
+      title: 'SASS',
+      link: '/../public/assets/skills/sass.png',
+      alt: 'SASS logo',
+    },
+    {
+      title: 'Redux',
+      link: '/../public/assets/skills/redux.png',
+      alt: 'Redux logo',
+    },
+    {
       title: 'GitHub',
       link: '/../public/assets/skills/github.png',
       alt: 'GitHub logo',
     },
-  
+    {
+      title: 'Figma',
+      link: '/../public/assets/skills/figma.png',
+      alt: 'Figma logo',
+    },
+    {
+      title: 'Git',
+      link: '/../public/assets/skills/git.png',
+      alt: 'Git logo',
+    },
   ];
 
   return { skills };

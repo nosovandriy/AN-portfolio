@@ -5,8 +5,8 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import classNames from 'classnames';
 
 import Logo from './logo/logo';
-import IconItems from '../iconItems/iconItems';
-import MenuItems from './menuItems/menuItems';
+import { IconItems } from '@iconItems';
+import { MenuItems } from '@nav-bar/menuItems';
 
 const NavBar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -61,8 +61,9 @@ const NavBar = () => {
             <div className='border-b border-gray-300 my-4'></div>
           </div>
           <div className='flex flex-col flex-grow'>
-            <ul className='uppercase'>
-              <MenuItems className={'py-3 text-sm'} />
+            <ul className='uppercase'
+            >
+              <MenuItems className={'py-3 text-sm'} onClick={handleShowMobileMenu} />
             </ul>
           </div>
           <div>

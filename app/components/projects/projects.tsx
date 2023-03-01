@@ -1,8 +1,9 @@
 import ProjectItem from './project-item';
 
 import { useProject } from './hook/useProject';
+import SlideUp from "./SlideUp"
 
-const Projects = () => {
+export const Projects = () => {
   const { projects } = useProject();
   return (
     <div id='projects' className='w-full'>
@@ -13,19 +14,18 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           {projects.map((project, index) => (
-            <ProjectItem
-              key={index}
-              title={project.title}
-              projectScreen={project.projectScreen}
-              link={project.link}
-              tech={project.tech}
-              alt={project.alt}
-            />
+            <SlideUp offset="-300px 0px -300px 0px" key={index}>
+              <ProjectItem
+                title={project.title}
+                image={project.image}
+                link={project.link}
+                tech={project.tech}
+                alt={project.alt}
+              />
+            </SlideUp>
           ))}
         </div>
       </div>
     </div>
   );
 };
-
-export default Projects;
