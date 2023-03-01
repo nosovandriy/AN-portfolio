@@ -46,11 +46,11 @@ const Main = () => {
           </div>
           <div className="absolute bottom-5">
             <AnchorLink
-              to="about"
+              to="resume"
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-100}
+              // offset={-30}
               duration={500}
               className='text-[#5651e5]'
             >

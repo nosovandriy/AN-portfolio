@@ -10,10 +10,10 @@ const navItems: Array<NavItem> = [
     label: "Home",
     page: "home",
   },
-  {
-    label: "About",
-    page: "about",
-  },
+  // {
+  //   label: "About",
+  //   page: "about",
+  // },
   {
     label: "Skills",
     page: "skills",
