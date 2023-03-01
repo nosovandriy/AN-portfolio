@@ -12,10 +12,10 @@ export default function Home() {
     <>
       <div className={inter.className}>
         <Main />
+        <Resume />
         {/* <About /> */}
         <Skills />
         <Projects />
-        <Resume />
       </div>
     </>
   )
