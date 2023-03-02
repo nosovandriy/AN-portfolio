@@ -2,6 +2,12 @@
 
 import Link from 'next/link';
 import { FaGithub, FaLinkedinIn, FaTelegramPlane, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
+
+type Props = {
+  github: string;
+  link: string;
+}
 
 const iconsList = [
   {
@@ -44,6 +50,28 @@ export const IconItems = () => {
           {item.icon}
         </Link>
       ))}
+    </>
+  )
+}
+
+export const IconItemsSite: React.FC<Props> = ({ github, link }) => {
+  return (
+    <>
+      <Link
+        href={github}
+        target="_blank"
+        rel="noreferrer noopener"
+      >
+        <BsGithub />
+      </Link>
+      <Link
+        href={link}
+        target="_blank"
+        rel="noreferrer noopener"
+
+      >
+        <BsArrowUpRightSquare />
+      </Link>
     </>
   )
 }

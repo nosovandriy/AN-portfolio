@@ -44,7 +44,7 @@ export const Main = () => {
               ))}
             </div>
           </div>
-          <div className="absolute bottom-20">
+          <div className="absolute bottom-16">
             <AnchorLink
               to="resume"
               activeClass="active"

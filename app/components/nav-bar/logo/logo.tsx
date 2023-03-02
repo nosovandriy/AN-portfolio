@@ -10,7 +10,7 @@ export const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
     <AnchorLink
       spy={true}
       smooth={true}
-      to={'https://andriynosov.com'}
+      to={'home'}
       offset={-30}
       duration={500}
       className='w-40 sm:w-48 lg:w-full cursor-pointer'
