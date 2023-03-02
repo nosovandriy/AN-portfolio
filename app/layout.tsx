@@ -1,6 +1,7 @@
 import './globals.scss';
 import { NavBar } from '@nav-bar/nav-bar';
 import { Footer } from '@footer/footer';
+import { AnalyticsWrapper } from './components/analytics';
 
 export const metadata = {
   title: 'AN | Front-End Developer',
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body>
         <NavBar />
         <main className='mx-3'>{children}</main>
+        <AnalyticsWrapper />
         <Footer />
       </body>
     </html>
