@@ -67,7 +67,7 @@ export const Resume = () => {
         </div>
       </div>
       <p className='py-4'>
-        As a Junior Software Developer with six months of experience in Frontend development, I am currently seeking new professional opportunities.
+        As a Junior Front-end Developer with six months of experience in Frontend development, I am currently seeking new professional opportunities.
         I have experience working with a range of technologies, including JavaScript, HTML, CSS, TypeScript, React, NextJs and others. If you have any opportunities available that match my skill set and experience, I would love to hear from you. Thank you for your consideration.
       </p>
 
@@ -196,5 +196,3 @@ export const Resume = () => {
     </div>
   );
 };
-
-// export default Resume

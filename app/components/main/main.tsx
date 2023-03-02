@@ -23,7 +23,7 @@ export const Main = () => {
               <span className='text-[#5651e5]'>&nbsp;Andriy</span>
             </h1>
             <h1 className='py-2 text-gray-700'>
-              A Front-End Web Developer
+              A Front-End Developer
             </h1>
             <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
               My purpose as a web developer is to create effective and user-friendly websites that satisfy everyone&apos;s needs.
