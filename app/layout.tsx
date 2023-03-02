@@ -4,7 +4,7 @@ import { Footer } from '@footer/footer';
 
 export const metadata = {
   title: 'AN | Web-Developer',
-  description: 'Andriy Nosov portfolio web-page',
+  description: 'Andriy Nosov portfolio',
 }
 
 export default function RootLayout({

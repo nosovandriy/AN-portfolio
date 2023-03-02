@@ -2,12 +2,12 @@
 
 import Link from 'next/link';
 import { IconContext } from 'react-icons';
-
-import { iconContacts } from 'contacts';
 import { Link as AnchorLink } from "react-scroll/modules";
 import { SlArrowDown } from 'react-icons/sl';
 
-const Main = () => {
+import { iconContacts } from 'contacts';
+
+export const Main = () => {
   return (
     <section id='home'>
       <div className='w-full h-screen text-center animate-fadeIn animation-delay-2'>
@@ -61,5 +61,3 @@ const Main = () => {
     </section>
   )
 }
-
-export default Main
