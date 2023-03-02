@@ -1,7 +1,6 @@
 import './globals.scss';
-import Head from 'next/head';
-import NavBar from './components/nav-bar/nav-bar';
-import Footer from './components/footer/footer';
+import { NavBar } from '@nav-bar/nav-bar';
+import { Footer } from '@footer/footer';
 
 export const metadata = {
   title: 'AN | Web-Developer',
@@ -15,13 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <Head>
-        <link rel="icon" href="favicon.ico" />
-      </Head> */}
       <body>
-          <NavBar />
-          <main className='mx-3'>{children}</main>
-          <Footer />
+        <NavBar />
+        <main className='mx-3'>{children}</main>
+        <Footer />
       </body>
     </html>
   )

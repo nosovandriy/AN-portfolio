@@ -1,7 +1,7 @@
 import { Raleway } from 'next/font/google'
 import  Main from '@main/main';
 // import { About } from '@about';
-import Resume from '@resume/resume';
+import { Resume } from '@resume/resume';
 import { Projects } from '@projects';
 import { Skills } from '@skills';
 

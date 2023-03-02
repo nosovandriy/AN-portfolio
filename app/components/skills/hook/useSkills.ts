@@ -1,25 +1,24 @@
-// interface Skill {
-//   title: string;
-//   link: string;
-//   alt: string;
-// }
+interface Skill {
+  title: string;
+  link: string;
+  alt: string;
+}
 
-// import html from '@image/skills/html.png';
 
 export function useSkills()
-// : {
-//   skills: Skill[];
-// }
+: {
+  skills: Skill[];
+}
  {
   const skills = [
     {
       title: 'HTML',
-      link: require('@image/skills/html.png'),
+      link: '/assets/skills/html.png',
       alt: 'HTML logo',
     },
     {
       title: 'CSS',
-      link: require('@image/skills/css.png'),
+      link: '/assets/skills/css.png',
       alt: 'CSS logo',
     },
     {
@@ -29,47 +28,47 @@ export function useSkills()
     },
     {
       title: 'React',
-      link: '/../public/assets/skills/react.png',
+      link: '/assets/skills/react.png',
       alt: 'React logo',
     },
     {
       title: 'NextJS',
-      link: '/../public/assets/skills/nextjs.png',
+      link: '/assets/skills/nextjs.png',
       alt: 'NextJS logo',
     },
     {
       title: 'Tailwind',
-      link: '/../public/assets/skills/tailwind.png',
+      link: '/assets/skills/tailwind.png',
       alt: 'Tailwind logo',
     },
     {
       title: 'Bootstrap',
-      link: '/../public/assets/skills/bootstrap.png',
+      link: '/assets/skills/bootstrap.png',
       alt: 'Bootstrap logo',
     },
     {
       title: 'SASS',
-      link: '/../public/assets/skills/sass.png',
+      link: '/assets/skills/sass.png',
       alt: 'SASS logo',
     },
     {
       title: 'Redux',
-      link: '/../public/assets/skills/redux.png',
+      link: '/assets/skills/redux.png',
       alt: 'Redux logo',
     },
     {
       title: 'GitHub',
-      link: '/../public/assets/skills/github.png',
+      link: '/assets/skills/github.png',
       alt: 'GitHub logo',
     },
     {
       title: 'Figma',
-      link: '/../public/assets/skills/figma.png',
+      link: '/assets/skills/figma.png',
       alt: 'Figma logo',
     },
     {
       title: 'Git',
-      link: '/../public/assets/skills/git.png',
+      link: '/assets/skills/git.png',
       alt: 'Git logo',
     },
   ];

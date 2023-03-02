@@ -7,7 +7,7 @@ import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import { useProject } from './hook/useProject';
 
-const Resume = () => {
+export const Resume = () => {
   const { projects } = useProject();
 
   return (
@@ -87,16 +87,16 @@ const Resume = () => {
             <hr className="w-full h-0.5 mx-auto bg-neutral-200 border-0"></hr>
             <p>
               <span className='font-bold'>SOFT SKILLS : </span>
-              Communication Skills | Patience | Self-learning | Accountability | Setting Up Projects
+              Communication Skills | Patience | Self-learning | Accountability
             </p>
           </div>
         </div>
       </div>
 
+      {/* Experience */}
       <div>
         <IconContext.Provider value={{ className: 'hover:text-[#5651e5] cursor-pointer', size: '20px' }}>
           <p className='py-4 uppercase text-xl tracking-widest text-[#5651e5]'>Experience</p>
-          {/* Experience */}
           <div>
             <p className='italic'>
               <span className='font-bold italic'>
@@ -110,7 +110,6 @@ const Resume = () => {
                   key={index}
                   className='flex gap-3'
                 >
-                  <p>{project.title}</p>
                   <div className="flex flex-row align-bottom space-x-4">
                     <Link href={project.github} target="_blank">
                       <BsGithub />
@@ -120,6 +119,8 @@ const Resume = () => {
                       <BsArrowUpRightSquare />
                     </Link>
                   </div>
+                  <p>{project.title}</p>
+
                 </li>
               ))}
             </ul>
@@ -137,7 +138,6 @@ const Resume = () => {
                   key={index}
                   className='flex gap-3'
                 >
-                  <p>{project.title}</p>
                   <div className="flex flex-row align-bottom space-x-4">
                     <Link href={project.github} target="_blank">
                       <BsGithub />
@@ -147,6 +147,7 @@ const Resume = () => {
                       <BsArrowUpRightSquare />
                     </Link>
                   </div>
+                  <p>{project.title}</p>
                 </li>
               ))}
             </ul>
@@ -197,4 +198,4 @@ const Resume = () => {
   );
 };
 
-export default Resume
+// export default Resume

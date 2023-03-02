@@ -4,11 +4,11 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import classNames from 'classnames';
 
-import Logo from './logo/logo';
+import { Logo } from './logo';
 import { IconItems } from '@iconItems';
 import { MenuItems } from '@nav-bar/menuItems';
 
-const NavBar = () => {
+export const NavBar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [navigationShadow, setNavigationShadow] = useState(false);
 
@@ -77,5 +77,3 @@ const NavBar = () => {
     </header >
   )
 }
-
-export default NavBar

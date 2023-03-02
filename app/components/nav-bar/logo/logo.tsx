@@ -1,15 +1,11 @@
-"use client"
-
 import Image from 'next/image';
 import { Link as AnchorLink } from "react-scroll/modules";
-import logo from '@image/logo.png';
-
 
 type Props = {
   handleShowMobileMenu: () => void;
 }
 
-const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
+export const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
   return (
     <AnchorLink
       spy={true}
@@ -21,7 +17,6 @@ const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
       onClick={handleShowMobileMenu}
     >
       <Image
-        // src={logo}
         src='/assets/logo.png'
         alt="Andriy Nosov web-developer logo"
         width={250}
@@ -31,5 +26,3 @@ const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
     </AnchorLink>
   )
 }
-
-export default Logo

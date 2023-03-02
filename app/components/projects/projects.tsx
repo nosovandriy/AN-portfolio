@@ -1,5 +1,4 @@
 import ProjectItem from './project-item';
-
 import { useProject } from './hook/useProject';
 import SlideUp from "./SlideUp"
 

@@ -50,7 +50,6 @@ const Main = () => {
               activeClass="active"
               spy={true}
               smooth={true}
-              // offset={-30}
               duration={500}
               className='text-[#5651e5]'
             >
