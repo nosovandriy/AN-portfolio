@@ -21,8 +21,9 @@ const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
       onClick={handleShowMobileMenu}
     >
       <Image
-        src={logo}
-        alt="AN web-developer logo"
+        // src={logo}
+        src='/assets/logo.png'
+        alt="Andriy Nosov web-developer logo"
         width={250}
         height={50}
         priority

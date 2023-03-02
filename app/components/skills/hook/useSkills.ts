@@ -4,7 +4,7 @@
 //   alt: string;
 // }
 
-import html from '@image/skills/html.png';
+// import html from '@image/skills/html.png';
 
 export function useSkills()
 // : {
@@ -14,17 +14,17 @@ export function useSkills()
   const skills = [
     {
       title: 'HTML',
-      link: html,
+      link: require('@image/skills/html.png'),
       alt: 'HTML logo',
     },
     {
       title: 'CSS',
-      link: '/../public/assets/skills/css.png',
+      link: require('@image/skills/css.png'),
       alt: 'CSS logo',
     },
     {
       title: 'JavaScript',
-      link: '/../public/assets/skills/javascript.png',
+      link: '/assets/skills/javascript.png',
       alt: 'JavaScript logo',
     },
     {
