@@ -71,29 +71,28 @@ export const Resume = () => {
         I have experience working with a range of technologies, including JavaScript, HTML, CSS, TypeScript, React, NextJs and others. If you have any opportunities available that match my skill set and experience, I would love to hear from you. Thank you for your consideration.
       </p>
 
-      {/* Skills */}
       <div className='py-4 mt-4'>
         <p className=' pb-4 uppercase text-xl tracking-widest text-[#5651e5]'>Skills</p>
         <div className='flex flex-col gap-5 mb-4'>
           <div className='text-left flex flex-col gap-2'>
-            <p><span className='font-bold'>FUNDAMENTALS : </span>Javascript | TypeScript | HTML | CSS</p>
-            <p><span className='font-bold'>JS FRAMEWORKS : </span>React | NextJS</p>
-            <p><span className='font-bold'>CSS FRAMEWORKS : </span>SCSS | Tailwind | Bootstrap</p>
-            <p><span className='font-bold'>BUILD TOOLS : </span>NPM | Yarn | Babel | Redux | MobX, Vercel</p>
-            <p><span className='font-bold'>TOOLS : </span>Git | Github | VS Code | Chrome Dev, Jira</p>
-            <p><span className='font-bold'>OTHERS : </span>Figma | SEO | UX/UI</p>
-            <p><span className='font-bold'>ALGORITHMS : </span>6 kyu on CodeWars</p>
-            <p><span className='font-bold'>ENGLISH : </span>Intermediate</p>
+            
+            <p><span className='font-bold'>FUNDAMENTALS&nbsp;:&nbsp;</span>Javascript | TypeScript | HTML | CSS</p>
+            <p><span className='font-bold'>JS FRAMEWORKS&nbsp;:&nbsp;</span>React | NextJS</p>
+            <p><span className='font-bold'>CSS FRAMEWORKS&nbsp;:&nbsp;</span>SCSS | Tailwind | Bootstrap</p>
+            <p><span className='font-bold'>BUILD TOOLS&nbsp;:&nbsp;</span>NPM | Yarn | Babel | Redux | MobX | Vercel</p>
+            <p><span className='font-bold'>TOOLS&nbsp;:&nbsp;</span>Git | Github | VS Code | Chrome Dev | Jira</p>
+            <p><span className='font-bold'>OTHERS&nbsp;:&nbsp;</span>Figma | SEO | UX/UI</p>
+            <p><span className='font-bold'>ALGORITHMS&nbsp;:&nbsp;</span>6 kyu on CodeWars</p>
+            <p><span className='font-bold'>ENGLISH&nbsp;:&nbsp;</span>Intermediate</p>
             <hr className="w-full h-0.5 mx-auto bg-neutral-200 border-0"></hr>
             <p>
-              <span className='font-bold'>SOFT SKILLS : </span>
+              <span className='font-bold'>SOFT SKILLS&nbsp;:&nbsp;</span>
               Communication Skills | Patience | Self-learning | Accountability
             </p>
           </div>
         </div>
       </div>
 
-      {/* Experience */}
       <div>
         <IconContext.Provider value={{ className: 'hover:text-[#5651e5] cursor-pointer', size: '20px' }}>
           <p className='py-4 uppercase text-xl tracking-widest text-[#5651e5]'>Experience</p>
@@ -157,7 +156,6 @@ export const Resume = () => {
 
       <p className='py-4 mt-7 uppercase text-xl tracking-widest text-[#5651e5]'>Other Professional Experience</p>
 
-      {/* Experience */}
       <div className='py-2'>
         <p className='italic'>
           <span className='font-bold'>SE Chortkivskyi KHP (2013 – 2020)</span>
@@ -184,7 +182,6 @@ export const Resume = () => {
         <p>I repaired and maintained computer hardware.</p>
       </div>
 
-      {/* EDUCATION */}
       <div className='py-4 mt-4'>
         <p className=' pb-4 uppercase text-xl tracking-widest text-[#5651e5]'>EDUCATION</p>
         <div className='flex flex-col gap-5 mb-4'>

@@ -44,7 +44,7 @@ const Main = () => {
               ))}
             </div>
           </div>
-          <div className="absolute bottom-5">
+          <div className="absolute bottom-20">
             <AnchorLink
               to="resume"
               activeClass="active"

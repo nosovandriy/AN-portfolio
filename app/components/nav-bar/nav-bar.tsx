@@ -69,7 +69,7 @@ export const NavBar = () => {
           <div>
             <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
             <div
-              className='flex items-center justify-between my-10 w-full sm:w-[80%]'
+              className='flex items-center justify-between my-12 w-full sm:w-[80%]'
               onClick={handleShowMobileMenu}
             >
               <IconItems />
