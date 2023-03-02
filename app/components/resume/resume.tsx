@@ -6,11 +6,13 @@ import { FaGithub, FaLinkedinIn, FaTelegramPlane, FaPhoneAlt, FaEnvelope } from 
 import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import { useProject } from './hook/useProject';
+import { IconItems } from './contactItems';
 
 export const Resume = () => {
   const { projects } = useProject();
 
   return (
+    <IconContext.Provider value={{ className: 'hover:text-[#5651e5] cursor-pointer hover:scale-110 easy-in duration-300', size: '20px' }}>
     <div id='resume' className='max-w-[940px] mx-auto p-2 pt-[120px]'>
       <h2 className='text-center'>Resume</h2>
       <div className='bg-[#d0d4d6] my-4 p-4 w-full flex flex-col sm:flex-row justify-between items-center'>
@@ -19,42 +21,8 @@ export const Resume = () => {
           <p className='text-center sm:text-left'>Frontend Developer</p>
         </div>
         <div className=''>
-          <div className='flex mt-5 sm:mt-0'>
-            <a
-              href='https://t.me/NosovAndriy'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FaPhoneAlt size={20} style={{ marginRight: '1rem' }} />
-            </a>
-            <a
-              href='https://t.me/NosovAndriy'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FaTelegramPlane size={20} style={{ marginRight: '1rem' }} />
-            </a>
-            <a
-              href='https://t.me/NosovAndriy'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FaEnvelope size={20} style={{ marginRight: '1rem' }} />
-            </a>
-            <a
-              href='https://www.linkedin.com/in/andriy-nosov-82470580/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
-            </a>
-            <a
-              href='https://github.com/nosovandriy'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
-            </a>
+          <div className='flex gap-5 mt-5 sm:mt-0'>
+            <IconItems />
           </div>
         </div>
       </div>
@@ -94,7 +62,6 @@ export const Resume = () => {
       </div>
 
       <div>
-        <IconContext.Provider value={{ className: 'hover:text-[#5651e5] cursor-pointer', size: '20px' }}>
           <p className='py-4 uppercase text-xl tracking-widest text-[#5651e5]'>Experience</p>
           <div>
             <p className='italic'>
@@ -151,7 +118,6 @@ export const Resume = () => {
               ))}
             </ul>
           </div>
-        </IconContext.Provider>
       </div>
 
       <p className='py-4 mt-7 uppercase text-xl tracking-widest text-[#5651e5]'>Other Professional Experience</p>
@@ -194,5 +160,6 @@ export const Resume = () => {
         </div>
       </div>
     </div>
+    </IconContext.Provider>
   );
 };
