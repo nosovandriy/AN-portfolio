@@ -2,6 +2,8 @@
 
 import Image from 'next/image';
 import { Link as AnchorLink } from "react-scroll/modules";
+import logo from '@image/logo.png';
+
 
 type Props = {
   handleShowMobileMenu: () => void;
@@ -19,7 +21,7 @@ const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
       onClick={handleShowMobileMenu}
     >
       <Image
-        src="/../public/assets/logo.png"
+        src={logo}
         alt="AN web-developer logo"
         width={250}
         height={50}

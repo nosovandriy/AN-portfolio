@@ -3,13 +3,16 @@ interface Skill {
   link: string;
   alt: string;
 }
+
+import html from '@image/skills/html.png';
+
 export function useSkills(): {
   skills: Skill[];
 } {
   const skills = [
     {
       title: 'HTML',
-      link: '/../public/assets/skills/html.png',
+      link: html,
       alt: 'HTML logo',
     },
     {
