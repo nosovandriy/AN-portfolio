@@ -29,7 +29,7 @@ export const NavBar = () => {
   }, []);
 
   return (
-    <header className={classNames('fixed w-full h-20 z-[100] bg-[#ecf0f3] dark:bg-stone-900 dark:border-b dark:border-stone-600 ', { 'shadow-xl': navigationShadow })}>
+    <header className={classNames('fixed w-full h-20 z-[100] bg-[#ecf0f3]', { 'shadow-xl': navigationShadow })}>
       <div className='flex justify-between items-center w-full h-full px-6 md:px-12 2xl:px-28'>
         <Logo handleShowMobileMenu={handleShowMobileMenu} />
         <ul className='hidden md:flex'>
@@ -42,7 +42,7 @@ export const NavBar = () => {
           <AiOutlineMenu size={25} />
         </div>
       </div>
-      <div className={showMobileMenu ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/60' : ''}>
+      <div className={showMobileMenu ? 'md:hidden fixed left-0 top-0 w-full h-screen' : ''}>
         <div className={
           showMobileMenu
             ? 'fixed left-0 top-0 w-[85%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-6 ease-in duration-500 flex flex-col'
@@ -68,7 +68,10 @@ export const NavBar = () => {
           </div>
           <div>
             <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s Connect</p>
-            <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+            <div
+              className='flex items-center justify-between my-10 w-full sm:w-[80%]'
+              onClick={handleShowMobileMenu}
+            >
               <IconItems />
             </div>
           </div>

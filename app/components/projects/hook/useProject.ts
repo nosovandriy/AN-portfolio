@@ -7,6 +7,7 @@ export function useProject(): {
     {
       title: 'Ukrainets website',
       image: '/assets/projects/ukrainets.png',
+      // image: require('@image/projects/ukrainets.png'),
       alt: 'Ukrainets website',
       link: 'https://www.ukrainets.in.ua/',
       tech: 'NextJS, HTML, CSS, Tailwind',

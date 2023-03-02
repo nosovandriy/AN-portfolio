@@ -81,7 +81,7 @@ export const Resume = () => {
             <p><span className='font-bold'>CSS FRAMEWORKS : </span>SCSS | Tailwind | Bootstrap</p>
             <p><span className='font-bold'>BUILD TOOLS : </span>NPM | Yarn | Babel | Redux | MobX, Vercel</p>
             <p><span className='font-bold'>TOOLS : </span>Git | Github | VS Code | Chrome Dev, Jira</p>
-            <p><span className='font-bold'>OTHERS : </span>Photoshop | Figma | SEO | UX/UI</p>
+            <p><span className='font-bold'>OTHERS : </span>Figma | SEO | UX/UI</p>
             <p><span className='font-bold'>ALGORITHMS : </span>6 kyu on CodeWars</p>
             <p><span className='font-bold'>ENGLISH : </span>Intermediate</p>
             <hr className="w-full h-0.5 mx-auto bg-neutral-200 border-0"></hr>
@@ -173,7 +173,7 @@ export const Resume = () => {
           <span className='font-bold'>Tetra Consulting (2010 – 2012)</span>
         </p>
         <p className='py-1 italic'>Hardware Sales Manager</p>
-        <p>I was engaged in ordering and selling computer equipment</p>
+        <p>I was engaged in ordering and selling computer hardware and others equipments.</p>
       </div>
 
       <div className='py-2'>
@@ -181,7 +181,7 @@ export const Resume = () => {
           <span className='font-bold'>Tetra Consulting (2007 – 2009)</span>
         </p>
         <p className='py-1 italic'>Computer Repair Technician</p>
-        <p>I repaired and serviced computer equipment</p>
+        <p>I repaired and maintained computer hardware.</p>
       </div>
 
       {/* EDUCATION */}
@@ -189,8 +189,10 @@ export const Resume = () => {
         <p className=' pb-4 uppercase text-xl tracking-widest text-[#5651e5]'>EDUCATION</p>
         <div className='flex flex-col gap-5 mb-4'>
           <div className='text-left flex flex-col gap-2'>
-            <p><span className='font-bold'>University : </span>Ternopil Ivan Puluj National Technical University (2005 - 2010)</p>
-            <p><span className='font-bold'>Courses : </span>Mate Academy (2021-2022)</p>
+            <p><span className='font-bold'>University : </span>Ternopil Ivan Puluj National Technical University</p>
+            <p>Master&apos;s degree, Computer Engineering (2005 - 2010)</p>
+            <p><span className='font-bold'>Courses : </span>Mate Academy</p>
+            <p>Front End development (2021 - 2022)</p>
           </div>
         </div>
       </div>
