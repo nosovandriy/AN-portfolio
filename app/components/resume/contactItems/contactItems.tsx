@@ -27,7 +27,7 @@ const iconsList = [
   },
   {
     icon: <FaLinkedinIn />,
-    href: 'https://www.linkedin.com/in/andriy-nosov-82470580/',
+    href: 'https://www.linkedin.com/in/andriy-nosov/',
     label: 'Connect with me on LinkedIn',
   },
   {

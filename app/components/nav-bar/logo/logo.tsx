@@ -18,7 +18,7 @@ export const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
     >
       <Image
         src='/assets/logo.png'
-        alt="Andriy Nosov web-developer logo"
+        alt="https://andriynosov.com/"
         width={250}
         height={50}
         priority
