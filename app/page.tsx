@@ -1,7 +1,7 @@
 import { Raleway } from 'next/font/google'
 
 import { Main } from '@main/main';
-import { Resume } from '@resume/resume';
+// import { Resume } from '@resume/resume';
 import { Projects } from '@projects';
 import { Skills } from '@skills';
 
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className={raleway.className}>
       <Main />
-      <Resume />
+      {/* <Resume /> */}
       {/* <About /> */}
       <Skills />
       <Projects />

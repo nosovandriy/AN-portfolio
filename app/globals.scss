@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  body { 
+  body {
     @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
   }
 
@@ -18,7 +18,7 @@
   h2 {
     @apply text-3xl sm:text-4xl
   }
-  
+
   li {
     @apply cursor-pointer
   }

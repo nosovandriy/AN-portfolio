@@ -10,10 +10,6 @@ const navItems: Array<NavItem> = [
     label: "Home",
     page: "home",
   },
-  // {
-  //   label: "About",
-  //   page: "about",
-  // },
   {
     label: "Skills",
     page: "skills",
@@ -24,7 +20,7 @@ const navItems: Array<NavItem> = [
   },
   {
     label: "Resume",
-    page: "resume",
+    page: "/resume",
   },
 ]
 
