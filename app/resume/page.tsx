@@ -5,7 +5,7 @@ import { IconContext } from 'react-icons';
 import { useProject } from './hook/useProject';
 import { IconItems, IconItemsSite } from './contactItems';
 
-export const Resume = () => {
+const Resume = () => {
   const { projects } = useProject();
 
   return (
@@ -148,3 +148,5 @@ export const Resume = () => {
     </IconContext.Provider>
   );
 };
+
+export default Resume;
