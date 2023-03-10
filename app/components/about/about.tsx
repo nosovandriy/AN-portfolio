@@ -39,7 +39,7 @@ export const About = () => {
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex shrink-0 items-center justify-center hover:scale-105 ease-in duration-300">
           <Image
-            src="/../public/assets/about.jpg"
+            src="/assets/about.jpg"
             width={1200}
             height={1000}
             className="rounded-xl"
