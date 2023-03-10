@@ -1,4 +1,6 @@
-import { Link as AnchorLink } from "react-scroll/modules";
+// import { Link as AnchorLink } from "react-scroll/modules";
+
+import Link from "next/link";
 
 interface NavItem {
   label: string;
@@ -8,15 +10,19 @@ interface NavItem {
 const navItems: Array<NavItem> = [
   {
     label: "Home",
-    page: "home",
+    page: "/#home",
+  },
+  {
+    label: "About",
+    page: "/#about",
   },
   {
     label: "Skills",
-    page: "skills",
+    page: "/#skills",
   },
   {
     label: "Projects",
-    page: "projects",
+    page: "/#projects",
   },
   {
     label: "Resume",
@@ -37,16 +43,17 @@ export const MenuItems: React.FC<Props> = ({ className, onClick }) => {
           key={index}
           className={className}
         >
-          <AnchorLink
+          <a
             onClick={onClick}
-            spy={true}
-            smooth={true}
-            to={item.page}
-            offset={-30}
-            duration={500}
+            href={item.page}
+          // spy={true}
+          // smooth={true}
+          // to={item.page}
+          // offset={-30}
+          // duration={500}
           >
             {item.label}
-          </AnchorLink>
+          </a>
         </li>
       ))}
     </>

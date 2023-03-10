@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import { Link as AnchorLink } from "react-scroll/modules";
+import Link from 'next/link';
+// import { Link as AnchorLink } from "react-scroll/modules";
 
 type Props = {
   handleShowMobileMenu: () => void;
@@ -7,12 +8,8 @@ type Props = {
 
 export const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
   return (
-    <AnchorLink
-      spy={true}
-      smooth={true}
-      to={'home'}
-      offset={-30}
-      duration={500}
+    <a
+      href={'/'}
       className='w-40 sm:w-48 lg:w-full cursor-pointer'
       onClick={handleShowMobileMenu}
     >
@@ -23,6 +20,6 @@ export const Logo: React.FC<Props> = ({ handleShowMobileMenu }) => {
         height={50}
         priority
       />
-    </AnchorLink>
+    </a>
   )
 }

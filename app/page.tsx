@@ -1,18 +1,17 @@
-import { Raleway } from 'next/font/google'
 
 import { Main } from '@main/main';
 // import { Resume } from '@resume/resume';
 import { Projects } from '@projects';
 import { Skills } from '@skills';
+import { About } from '@about';
 
-const raleway = Raleway({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className={raleway.className}>
+    <div>
       <Main />
       {/* <Resume /> */}
-      {/* <About /> */}
+      <About />
       <Skills />
       <Projects />
     </div>
