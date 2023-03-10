@@ -46,11 +46,6 @@ export const MenuItems: React.FC<Props> = ({ className, onClick }) => {
           <a
             onClick={onClick}
             href={item.page}
-          // spy={true}
-          // smooth={true}
-          // to={item.page}
-          // offset={-30}
-          // duration={500}
           >
             {item.label}
           </a>
