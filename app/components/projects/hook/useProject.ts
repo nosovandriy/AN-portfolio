@@ -12,7 +12,7 @@ export function useProject(): {
       tech: 'NextJS, HTML, CSS, Tailwind',
     },
     {
-      title: 'Cheese cake store',
+      title: 'CheeseCake-store (under construction)',
       image: '/assets/projects/cheesecake.webp',
       alt: 'Cheese cake store',
       link: '/',
