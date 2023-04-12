@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const About = () => {
   return (
@@ -26,14 +27,14 @@ export const About = () => {
           I would be thrilled to hear from you. Thank you for your
           consideration.
           <br /> <br />
-          <a href="/resume">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out my resume.
+          <Link href="/assets/cv.pdf" download={true} target={"_blank"}>
+            <p className="py-2 text-black underline cursor-pointer">
+              Download my resume
             </p>
-          </a>
+          </Link>
           <a href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my projects.
+              Check out some of my projects
             </p>
           </a>
         </div>
