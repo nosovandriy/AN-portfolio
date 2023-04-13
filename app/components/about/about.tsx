@@ -27,7 +27,7 @@ export const About = () => {
           I would be thrilled to hear from you. Thank you for your
           consideration.
           <br /> <br />
-          <Link href="/assets/cv.pdf" download={true} target={"_blank"}>
+          <Link href="/cv.pdf" download={true} target={"_blank"}>
             <p className="py-2 text-black underline cursor-pointer">
               Download my resume
             </p>
