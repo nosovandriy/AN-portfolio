@@ -23,7 +23,7 @@ export const Main = () => {
             <h1 className="py-2 text-gray-700">A Front-End Developer</h1>
             <p className="py-4 text-gray-600 max-w-[70%] m-auto">
               My purpose as a Front-End developer is to create effective and
-              user-friendly websites that satisfy everyone&apos;s needs.
+              user-friendly websites that satisfy customers needs
             </p>
             <div className="flex item-center justify-between max-w-[330px] m-auto py-4">
               {iconContacts.map((iconContact, index) => (
