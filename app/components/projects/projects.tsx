@@ -12,7 +12,7 @@ export const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div>
+        <div className='flex flex-col gap-8 lg:gap-10'>
           {projects.map((project, index) => (
             <SlideUp offset="-300px 0px -150px 0px" key={index}>
               <ProjectItem
