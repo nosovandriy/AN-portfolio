@@ -21,7 +21,7 @@ const ProjectItem: React.FC<Project> = ({
   const [scrollPage, setScrollPage] = useState(false);
 
   return (
-    <div className="p-10 gap-10 flex flex-col lg:flex-row items-center justify-center w-full shadow-xl shadow-gray-400 rounded-xl">
+    <div className="p-5 lg:p-10 gap-10 flex flex-col lg:flex-row items-center justify-center w-full shadow-xl shadow-gray-400 rounded-xl">
       <div className="rounded-xl lg:w-1/2 overflow-hidden h-[250px] sm:h-[400px]">
         <Link href={link} target="_blank" rel="noreferrer noopener">
           <Image
@@ -41,10 +41,10 @@ const ProjectItem: React.FC<Project> = ({
           />
         </Link>
       </div>
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2 w-full">
         <h2 className="mb-6 text-3xl">{title}</h2>
         <p className="mb-6 text-justify">{description}</p>
-        <div className="flex gap-2 mb-10 justify-center">
+        <div className="flex gap-2 mb-10 justify-center w-full flex-wrap">
           {tech.map((item, index) => (
             <div
               key={index}

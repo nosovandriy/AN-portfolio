@@ -12,7 +12,7 @@ export const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-1 gap-8'>
+        <div>
           {projects.map((project, index) => (
             <SlideUp offset="-300px 0px -150px 0px" key={index}>
               <ProjectItem
