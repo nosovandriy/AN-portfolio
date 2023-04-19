@@ -1,14 +1,15 @@
-import "./globals.scss";
+import { Raleway } from "next/font/google";
+
 import { NavBar } from "@nav-bar/nav-bar";
 import { Footer } from "@footer/footer";
 import { AnalyticsWrapper } from "./components/analytics";
-import { Raleway } from "next/font/google";
+import "./globals.scss";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "AN | Front-End Developer",
-  description: "Andriy Nosov portfolio | Front-End Developer",
+  title: "Andriy Nosov | Front-End Developer",
+  description: "Front-End Developer portfolio",
 
   openGraph: {
     title: "AN | Front-End Developer",
@@ -20,11 +21,7 @@ export const metadata = {
         url: "https://serving.photos.photobox.com/82171614081d51b28f81e8d1274941ead3440a789a2607a9ef4f78c2fbd5dbefc99ffb93.jpg",
       },
     ],
-    locale: "en-US",
-    type: "website",
   },
-  creator: "Andriy Nosov",
-  publisher: "Andriy Nosov",
 };
 
 export default function RootLayout({
