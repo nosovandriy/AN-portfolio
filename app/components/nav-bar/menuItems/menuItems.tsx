@@ -42,7 +42,7 @@ export const MenuItems: React.FC<Props> = ({ className, onClick }) => {
         </li>
       ))}
       <li className={className}>
-        <Link href="/cv.pdf" download={true} target={"_blank"}>
+        <Link href="/[AndriyNosov]FrontendDeveloper.pdf" download={true} target={"_blank"}>
           Resume
         </Link>
       </li>

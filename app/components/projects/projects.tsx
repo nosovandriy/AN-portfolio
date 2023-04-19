@@ -12,15 +12,18 @@ export const Projects = () => {
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-1 gap-8'>
           {projects.map((project, index) => (
             <SlideUp offset="-300px 0px -150px 0px" key={index}>
               <ProjectItem
                 title={project.title}
                 image={project.image}
                 link={project.link}
+                gitHub={project.gitHub}
                 tech={project.tech}
                 alt={project.alt}
+                description={project.description}
+                scroll={project.scroll}
               />
             </SlideUp>
           ))}

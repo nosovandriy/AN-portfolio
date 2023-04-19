@@ -25,5 +25,3 @@ export const IconItems = () => {
     </>
   )
 }
-
-// export default IconItems
