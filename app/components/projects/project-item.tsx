@@ -29,7 +29,7 @@ const ProjectItem: React.FC<Project> = ({
             src={image}
             alt={alt}
             width={900}
-            height={600}
+            height={4800}
             loading="eager"
             style={{
               transform: scrollPage
