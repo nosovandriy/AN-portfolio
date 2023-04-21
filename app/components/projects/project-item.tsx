@@ -30,6 +30,7 @@ const ProjectItem: React.FC<Project> = ({
             alt={alt}
             width={900}
             height={600}
+            loading="eager"
             style={{
               transform: scrollPage
                 ? `translateY(${scroll})`
