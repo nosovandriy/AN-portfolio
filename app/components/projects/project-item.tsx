@@ -3,10 +3,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { Project } from "types";
-
-import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
+import { FiExternalLink } from "react-icons/fi";
+
+import { Project } from "types";
 
 const ProjectItem: React.FC<Project> = ({
   title,

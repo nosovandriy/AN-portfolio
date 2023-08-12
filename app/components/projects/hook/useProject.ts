@@ -5,6 +5,30 @@ export function useProject(): {
 } {
   const projects = [
     {
+      title: "Art vs War gallery",
+      image: "/assets/projects/artvswar.webp",
+      description:
+        'The "Art vs War" online gallery platform is designed to facilitate the sale of paintings, with a focus on merging art and charity. The platform offers possibilities where artists can sell their paintings. Key features of the project include user registration, artist profiles for uploading and editing paintings, and secure sales transactions. This project is based on Next.js and Spring Boot frameworks, utilizing Amazon Web Services and Stripe payment service. Our team consists of a PM, frontend and backend developers, QA, and a UI/UX designer.',
+      alt: "Art vs War gallery",
+      link: "https://develop.artvswar.gallery/",
+      gitHub: "https://github.com/nosovandriy",
+      tech: [
+        "NextJS",
+        "TypeScript",
+        "HTML",
+        "SCSS",
+        "Redux",
+        "Axios",
+        "Stripe",
+        "AWS Amplify",
+        "AWS Cognito",
+        "Cloudinary",
+        "React-hook-form",
+        "Swiper",
+      ],
+      scroll: "-69%",
+    },
+    {
       title: "Cheesecake store",
       image: "/assets/projects/cheesecake.webp",
       description:
@@ -12,7 +36,18 @@ export function useProject(): {
       alt: "Cheese cake store",
       link: "https://nahirna-cake.com.ua/",
       gitHub: "https://github.com/nosovandriy/nahirna-cake-store",
-      tech: ["NextJS", "HTML", "CSS", "Tailwind", "Redux", "Axios"],
+      tech: [
+        "NextJS",
+        "TypeScript",
+        "HTML",
+        "Tailwind CSS",
+        "Redux",
+        "Axios",
+        "Swiper",
+        "Vercel",
+        "Google Analytics",
+        "Telegram bot",
+      ],
       scroll: "-69%",
     },
     {
@@ -23,7 +58,7 @@ export function useProject(): {
       alt: "Ukrainets website",
       link: "https://www.ukrainets.in.ua/",
       gitHub: "https://github.com/nosovandriy/ukrainets",
-      tech: ["NextJS", "HTML", "CSS", "SCSS"],
+      tech: ["NextJS", "HTML", "CSS", "SCSS", "Swiper", "Facebook chat"],
       scroll: "-86%",
     },
     {
@@ -59,29 +94,6 @@ export function useProject(): {
       gitHub: "https://github.com/nosovandriy/layout_dia/tree/develop",
       tech: ["HTML", "CSS", "SCSS"],
       scroll: "-80%",
-    },
-    {
-      title: "React Route Table",
-      image: "/assets/projects/people.webp",
-      description:
-        "The React Route Table app is a modern web application built with React, TypeScript, HTML, CSS, React Router, and Rest-API.  The app utilizes React Router for dynamic routing, making it easy for users to navigate between different sections and efficiently manage their data.",
-      alt: "React Route People Table",
-      link: "https://nosovandriy.github.io/react_people-table-advanced/",
-      gitHub: "https://github.com/nosovandriy/nahirna-cake-store",
-      tech: ["React", "TS", "HTML", "CSS", "React Router", "Rest-API"],
-      scroll: "0%",
-    },
-    {
-      title: "JS Employees Table",
-      image: "/assets/projects/employees.webp",
-      description:
-        "The JS Employees Table is a web application built with JavaScript, HTML, CSS, and SCSS. It provides a user-friendly interface for managing employee data in a tabular format. Users can add, edit, and delete employee records.",
-      alt: "JS Employees Table",
-      link: "https://nosovandriy.github.io/js_employees_table_DOM/",
-      gitHub:
-        "https://github.com/nosovandriy/js_employees_table_DOM/tree/develop",
-      tech: ["JS", "HTML", "CSS", "SCSS"],
-      scroll: "0%",
     },
     {
       title: "Miami website",
