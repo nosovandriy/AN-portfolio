@@ -1,6 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
-// import { Link as AnchorLink } from "react-scroll/modules";
 
 type Props = {
   handleShowMobileMenu: () => void;

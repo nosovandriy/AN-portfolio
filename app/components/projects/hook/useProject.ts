@@ -11,7 +11,7 @@ export function useProject(): {
         'The "Art vs War" online gallery platform is designed to facilitate the sale of paintings, with a focus on merging art and charity. The platform offers possibilities where artists can sell their paintings. Key features of the project include user registration, artist profiles for uploading and editing paintings, and secure sales transactions. This project is based on Next.js and Spring Boot frameworks, utilizing Amazon Web Services and Stripe payment service. Our team consists of a PM, frontend and backend developers, QA, and a UI/UX designer.',
       alt: "Art vs War gallery",
       link: "https://develop.artvswar.gallery/",
-      gitHub: "https://github.com/nosovandriy",
+      gitHub: "https://github.com/nosovandriy/art-vs-war",
       tech: [
         "NextJS",
         "TypeScript",
@@ -24,9 +24,10 @@ export function useProject(): {
         "AWS Cognito",
         "Cloudinary",
         "React-hook-form",
+        "Yup",
         "Swiper",
       ],
-      scroll: "-69%",
+      scroll: "-79%",
     },
     {
       title: "Cheesecake store",

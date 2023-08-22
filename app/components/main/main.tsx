@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { IconContext } from "react-icons";
-import { Link as AnchorLink } from "react-scroll/modules";
 import { SlArrowDown } from "react-icons/sl";
 
 import { iconContacts } from "contacts";

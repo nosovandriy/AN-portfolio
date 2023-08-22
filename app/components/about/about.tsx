@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { MdDownloading } from "react-icons/md";
 
 export const About = () => {
   return (
@@ -27,16 +28,21 @@ export const About = () => {
           I would be thrilled to hear from you. Thank you for your
           consideration.
           <br /> <br />
-          <Link href="/[AndriyNosov]FrontendDeveloper.pdf" download={true} target={"_blank"}>
-            <p className="py-2 text-black underline cursor-pointer">
-              Download my resume
+          <Link
+            href="/[AndriyNosov]FrontendDeveloper.pdf"
+            download={true}
+            target={"_blank"}
+            className="flex items-center gap-3"
+          >
+            <p className="py-2 text-[#5651e5] cursor-pointer text-xl">
+              MY RESUME
             </p>
+            <MdDownloading
+              size={"24px"}
+              color={"#5651e5"}
+              className="animate-bounce"
+            />
           </Link>
-          <a href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my projects
-            </p>
-          </a>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex shrink-0 items-center justify-center hover:scale-105 ease-in duration-300">
           <Image

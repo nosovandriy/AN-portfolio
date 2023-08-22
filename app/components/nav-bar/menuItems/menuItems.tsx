@@ -1,5 +1,3 @@
-// import { Link as AnchorLink } from "react-scroll/modules";
-
 import Link from "next/link";
 
 interface NavItem {
@@ -24,6 +22,10 @@ const navItems: Array<NavItem> = [
     label: "Projects",
     page: "/#projects",
   },
+  {
+    label: "Resume",
+    page: "/#about",
+  },
 ];
 
 type Props = {
@@ -41,11 +43,6 @@ export const MenuItems: React.FC<Props> = ({ className, onClick }) => {
           </a>
         </li>
       ))}
-      <li className={className}>
-        <Link href="/[AndriyNosov]FrontendDeveloper.pdf" download={true} target={"_blank"}>
-          Resume
-        </Link>
-      </li>
     </>
   );
 };
