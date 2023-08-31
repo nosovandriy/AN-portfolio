@@ -32,16 +32,18 @@ export const About = () => {
             href="/[AndriyNosov]FrontendDeveloper.pdf"
             download={true}
             target={"_blank"}
-            className="flex items-center gap-3"
+            className="flex items-center gap-3 border-1 border-[#5651e5] border-solid w-full h-20"
           >
-            <p className="py-2 text-[#5651e5] cursor-pointer text-xl">
-              MY RESUME
-            </p>
-            <MdDownloading
-              size={"24px"}
-              color={"#5651e5"}
-              className="animate-bounce"
-            />
+            <div className="rounded-md shadow-lg shadow-grey-400 p-3 text-[#5651e5] border-[1px] border-[#5651e5] border-solid w-full h-14 flex items-center gap-3 justify-center md:max-w-xs hover:scale-105 ease-in duration-300">
+              <p className="py-2 text-[#5651e5] cursor-pointer text-xl">
+                MY RESUME
+              </p>
+              <MdDownloading
+                size={"24px"}
+                color={"#5651e5"}
+                className="animate-bounce"
+              />
+            </div>
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex shrink-0 items-center justify-center hover:scale-105 ease-in duration-300">
