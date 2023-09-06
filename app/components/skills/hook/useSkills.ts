@@ -27,6 +27,11 @@ export function useSkills()
       alt: 'JavaScript logo',
     },
     {
+      title: 'TypeScript',
+      link: '/assets/skills/ts.png',
+      alt: 'TypeScript logo',
+    },
+    {
       title: 'React',
       link: '/assets/skills/react.png',
       alt: 'React logo',
@@ -40,6 +45,11 @@ export function useSkills()
       title: 'Tailwind',
       link: '/assets/skills/tailwind.png',
       alt: 'Tailwind logo',
+    },
+    {
+      title: 'MUI',
+      link: '/assets/skills/mui.png',
+      alt: 'MUI logo',
     },
     {
       title: 'Bootstrap',
@@ -60,6 +70,16 @@ export function useSkills()
       title: 'GitHub',
       link: '/assets/skills/github.png',
       alt: 'GitHub logo',
+    },
+    {
+      title: 'React Testing Library',
+      link: '/assets/skills/rtl.png',
+      alt: 'React Testing Library logo',
+    },
+    {
+      title: 'Postman',
+      link: '/assets/skills/postman.png',
+      alt: 'Postman logo',
     },
     {
       title: 'Figma',
