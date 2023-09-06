@@ -73,7 +73,7 @@ export function useSkills()
     },
     {
       title: 'React Testing Library',
-      link: '/assets/skills/rtl.png',
+      link: '/assets/skills/react-testing-library.png',
       alt: 'React Testing Library logo',
     },
     {
