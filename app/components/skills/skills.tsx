@@ -5,8 +5,8 @@ import { useSkills } from "./hook/useSkills";
 export const Skills = () => {
   const { skills } = useSkills();
   return (
-    <div className="w-full h-full p-2 mb-3 relative">
-      <span id="skills" className="absolute top-[-50px] lg:top-[-50px]"></span>
+    <div className="w-full h-full min-h-[100vh] p-2 mb-3 relative">
+      <span id="skills" className="absolute top-[-100px]"></span>
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
