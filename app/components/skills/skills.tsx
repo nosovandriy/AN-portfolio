@@ -1,5 +1,9 @@
-import Image from "next/image";
+"use client";
 
+import Image from "next/image";
+import { motion } from "framer-motion";
+
+import { StepAnimation } from "utils/animation";
 import { useSkills } from "./hook/useSkills";
 
 export const Skills = () => {
@@ -12,9 +16,16 @@ export const Skills = () => {
           Skills
         </p>
         <h2 className="py-4">My Web Development Stack</h2>
-        <div className="grid grid-cols-2 gap-2 lg:grid-cols-4 lg:gap-8">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ amount: 0.3, once: true }}
+          className="grid grid-cols-2 gap-2 lg:grid-cols-4 lg:gap-8"
+        >
           {skills.map((skill, index) => (
-            <div
+            <motion.div
+              custom={index + 1}
+              variants={StepAnimation()}
               className="p-4 lg:p-6 flex border-gray-300 border-[1px] justify-center items-center shadow-xl rounded-xl hover:scale-105 ease-in duration-300 hover:bg-slate-300"
               key={index}
             >
@@ -31,9 +42,9 @@ export const Skills = () => {
                   <h3>{skill.title}</h3>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

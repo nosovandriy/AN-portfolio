@@ -5,6 +5,28 @@ export function useProject(): {
 } {
   const projects = [
     {
+      title: '"Manoli" parfums store',
+      image: "/assets/projects/manoli.webp",
+      description:
+        "Manoli Parfums store is an elegant e-commerce platform with a primary focus on mobile-first design principles. The site is built based on Next.js and NestJS frameworks. Moreover, the implementation of multilingualism thanks to i18n and next-intl allows users around the world to easily navigate and interact with our site. Engaging animations, powered by Framer-motion, create a visually stunning and immersive browsing experience for our users. Integration of the Nova Poshta API improves the delivery process, making it reliable and user-friendly for obtaining delivery addresses.",
+      alt: "Art vs War gallery",
+      link: "https://manoli-9zk9rc0jc-nosovandriy.vercel.app/",
+      gitHub: "https://github.com/nosovandriy/manoli",
+      tech: [
+        "NextJS",
+        "TypeScript",
+        "HTML",
+        "SCSS",
+        "Redux",
+        "i18n",
+        "Framer-motion",
+        "React-hook-form",
+        "Telegram bot",
+        "Vercel",
+      ],
+      scroll: "-87%",
+    },
+    {
       title: "Art vs War gallery",
       image: "/assets/projects/artvswar.webp",
       description:

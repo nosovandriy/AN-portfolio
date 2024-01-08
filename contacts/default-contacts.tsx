@@ -20,9 +20,5 @@ export const iconContacts = [
     title: defaultContacts.telegram,
     icon: <FaTelegramPlane />,
   },
-  {
-    title: defaultContacts.facebook,
-    icon: <FaFacebookF />,
-  },
 ];
 
