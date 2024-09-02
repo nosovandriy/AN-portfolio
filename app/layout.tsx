@@ -8,14 +8,14 @@ import "./globals.scss";
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Andriy Nosov | Front-End Developer",
-  description: "Front-End Developer portfolio",
+  title: "Andriy Nosov | WEB Developer",
+  description: "Andriy Nosov WEB Developer portfolio",
 
   openGraph: {
-    title: "AN | Front-End Developer",
-    description: "Andriy Nosov portfolio | Front-End Developer",
+    title: "AN | WEB Developer",
+    description: "Andriy Nosov | WEB Developer",
     url: "https://andriynosov.com",
-    siteName: "AN | Front-End Developer",
+    siteName: "AN | WEB Developer",
     images: [
       {
         url: "https://serving.photos.photobox.com/82171614081d51b28f81e8d1274941ead3440a789a2607a9ef4f78c2fbd5dbefc99ffb93.jpg",

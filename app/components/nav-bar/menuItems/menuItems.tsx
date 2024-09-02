@@ -20,13 +20,13 @@ const navItems: Array<NavItem> = [
     page: "/#skills",
   },
   {
-    label: "Projects",
-    page: "/#projects",
+    label: "Portfolio",
+    page: "/#portfolio",
   },
-  {
-    label: "Resume",
-    page: "/#about",
-  },
+  // {
+  //   label: "Resume",
+  //   page: "/#about",
+  // },
 ];
 
 type Props = {

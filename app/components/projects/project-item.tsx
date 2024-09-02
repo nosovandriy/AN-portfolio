@@ -43,7 +43,12 @@ const ProjectItem: React.FC<Project> = ({
         </Link>
       </div>
       <div className="lg:w-1/2 w-full">
-        <h2 className="mb-6 text-3xl">{title}</h2>
+        <Link
+          href={link}
+          className="mb-6 font-bold text-3xl sm:text-4xl block hover:text-[#5651e5] hover:underline"
+        >
+          {title}
+        </Link>
         <p className="mb-6 text-justify">{description}</p>
         <div className="flex gap-2 mb-10 justify-center w-full flex-wrap">
           {tech.map((item, index) => (
@@ -57,7 +62,8 @@ const ProjectItem: React.FC<Project> = ({
         </div>
         <div className="flex justify-center gap-10">
           <Link
-            href={gitHub}
+            href={"https://github.com/nosovandriy"}
+            // href={gitHub}
             target="_blank"
             rel="noreferrer noopener"
             className="cursor-pointer hover:text-[#5651e5] text-lg flex gap-1"

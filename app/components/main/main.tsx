@@ -35,7 +35,7 @@ export const Main = () => {
                 viewport={{ once: true }}
                 className="py-2 text-gray-700 w-fit m-auto xl:m-0"
               >
-                A Front-End Developer
+                a WEB Developer
               </motion.h1>
 
               <motion.p
@@ -45,7 +45,7 @@ export const Main = () => {
                 viewport={{ once: true }}
                 className="py-4 text-gray-600 max-w-[70%] m-auto xl:m-0"
               >
-                My purpose as a Front-End developer is to create effective and
+                My purpose as a Fullstack developer is to create effective and
                 user-friendly websites that satisfy customers needs
               </motion.p>
               <motion.p

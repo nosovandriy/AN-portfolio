@@ -9,9 +9,9 @@ import { MdDownloading } from "react-icons/md";
 import { ImageAnimation, MainAnimation, TitleAnimation } from "utils/animation";
 
 export const About = () => {
-  const text1 = `I am a Front-end Developer seeking new professional opportunities.`;
+  const text1 = `I am a Fullstack Developer seeking new professional opportunities.`;
   const text2 = `My skills include JavaScript, HTML, CSS, TypeScript, React, NextJs and other necessary software programs, and I am always eager to learn new technologies.`;
-  const text3 = `While I specialize in front-end development, I am flexible and can quickly learn new technology stacks as needed.`;
+  const text3 = `While I specialize in fullstack development, I am flexible and can quickly learn new technology stacks as needed.`;
   const text4 = `If you have any opportunities that match my skill set and experience, I would be thrilled to hear from you. Thank you for your consideration.`;
 
   return (
@@ -41,7 +41,7 @@ export const About = () => {
           <AnimatedText once text={text2} el="span" />
           <AnimatedText once text={text3} el="span" />
           <AnimatedText once text={text4} el="span" />
-          <Link
+          {/* <Link
             href="/[AndriyNosov]FrontendDeveloper.pdf"
             download={true}
             target={"_blank"}
@@ -62,7 +62,7 @@ export const About = () => {
                 className="animate-bounce"
               />
             </motion.div>
-          </Link>
+          </Link> */}
         </div>
         <motion.div
           variants={ImageAnimation()}

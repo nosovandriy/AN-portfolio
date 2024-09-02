@@ -6,10 +6,10 @@ export const Projects = () => {
   const { projects } = useProject();
   return (
     <div className='relative'>
-      <span id='projects' className='absolute top-[-50px] lg:top-[-100px]'></span>
+      <span id='portfolio' className='absolute top-[-50px] lg:top-[-100px]'></span>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-          Projects
+          Portfolio
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='flex flex-col gap-8 lg:gap-10'>
